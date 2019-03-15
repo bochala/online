@@ -3,7 +3,8 @@
     
     <groupId>org.rns.training</groupId> 
     <artifactId>maven-training</artifactId> 
+    <packaging>war</packaging>
     <version>1.0</version> 
-    <packaging>war</packaging>	
+    	
 
 </project>
