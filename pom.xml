@@ -4,6 +4,7 @@
     <groupId>org.rns.training</groupId> 
     <artifactId>maven-training</artifactId> 
     <version>1.0</version> 
+    <packaging>war</packaging>
     <build>
     <plugins>
       <plugin>
