@@ -3,8 +3,19 @@
     
     <groupId>org.rns.training</groupId> 
     <artifactId>maven-training</artifactId> 
-    <packaging>war</packaging>
     <version>1.0</version> 
+    <build>
+    <plugins>
+      <plugin>
+        <groupId>org.rns.training</groupId>
+        <artifactId>maven-war-training</artifactId>
+        <version>2.3</version>
+        <configuration>
+          <warName>bird.war</warName>
+        </configuration>
+       </plugin>
+     </plugins>
+    </build>
     	
 
 </project>
